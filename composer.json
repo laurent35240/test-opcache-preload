@@ -1,0 +1,21 @@
+{
+  "name": "laurent35240/test-opcache-preload",
+  "description": "Test potential opcache preload bug",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Laurent Clouet",
+      "email": "laurent35240@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-zend-opcache": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laurent35240\\OpcachePreload\\": "src/"
+    }
+  }
+}
